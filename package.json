@@ -1,0 +1,25 @@
+{
+  "name": "idea-board",
+  "version": "1.0.0",
+  "description": "mehn stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msommerfield/idea-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msommerfield/idea-board/issues"
+  },
+  "homepage": "https://github.com/msommerfield/idea-board#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
