@@ -1,11 +1,11 @@
-const mongoose = require('./connection.js')
+const mongoose = require('../db/connection.js')
 const Schema = mongoose.Schema
 
 const IdeaSchema = new Schema({
 title: {
-    title: String,
-    default: "New Title",
-        },
+    type: String,
+    default: "New Title"
+    },
     description: {
         type: String, 
         default: 'New Description'
